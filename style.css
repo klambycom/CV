@@ -19,7 +19,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -35,12 +34,18 @@ q:before, q:after {
 table { border-collapse: collapse; border-spacing: 0; }
 
 /* PAGE */
-body { margin: 0px auto; width: 900px; }
+body { margin: 0px auto; width: 900px; color: rgb(32, 32, 32); }
+header, article, p { margin: 10px 0; }
 h1 { font-size: 3em; }
 h2 { font-size: 2em; }
 h3 { font-size: 1.5em; }
 
 /* HEADER */
-header { display: flex; }
-#contact { display: flex; flex-direction: column; }
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px rgb(32, 32, 32) solid;
+  padding: 5px 0;
+}
+#contact { display: flex; flex-direction: column; text-align: right; }
 #contact a { white-space: nowrap; }
