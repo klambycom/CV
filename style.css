@@ -59,5 +59,9 @@ body > header {
   padding: 5px 0;
 }
 
+header small {
+  color: gray;
+}
+
 #contact { display: flex; flex-direction: column; text-align: right; }
 #contact a { white-space: nowrap; }
