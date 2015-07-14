@@ -52,8 +52,12 @@ h3 { font-size: 1.5em; }
 header {
   display: flex;
   justify-content: space-between;
+}
+
+body > header {
   border-bottom: 1px rgb(32, 32, 32) solid;
   padding: 5px 0;
 }
+
 #contact { display: flex; flex-direction: column; text-align: right; }
 #contact a { white-space: nowrap; }
