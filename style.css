@@ -64,11 +64,11 @@ article { display: flex; margin: 20px 0; }
 article > h2, article > div > small { border-radius: 2px; }
 
 article > h2 {
-  background-color: lightgray;
+  background-color: rgb(240, 240, 240);
   width: 20%;
   padding: 5px;
   margin-right: 5px;
-  background: linear-gradient(lightgray, transparent);
+  background: linear-gradient(rgb(240, 240, 240), transparent);
 }
 
 article > div { width: 80%; }
