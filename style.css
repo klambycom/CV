@@ -24,7 +24,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body { line-height: 1; }
-ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -71,6 +70,8 @@ article > h2 {
   background: linear-gradient(rgb(240, 240, 240), transparent);
 }
 
+article div div:not(:first-of-type) h3 { margin-top: 10px; }
+
 article > div { width: 80%; }
 
 article > div > small {
@@ -81,8 +82,9 @@ article > div > small {
   font-size: .9em;
 }
 
+ul { margin-bottom: 10px; padding-left: 20px; }
+li { margin-bottom: 5px; }
 
-
-
+/* CONTACT */
 #contact { display: flex; flex-direction: column; text-align: right; }
 #contact a { white-space: nowrap; }
