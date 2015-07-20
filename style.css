@@ -45,7 +45,6 @@ h2 {
 }
 h3 { font-size: 1.5em; }
 a { color: #1756a9; text-decoration: none; }
-/*a:visited { color: rgb(85, 26, 172); }*/
 
 /* HEADER */
 header {
@@ -85,7 +84,8 @@ article > div > small {
 }
 
 ul { margin-bottom: 10px; padding-left: 20px; }
-li { margin-bottom: 5px; }
+li { margin-bottom: 3px; }
+li ul { margin-top: 5px; }
 
 /* CONTACT */
 #contact { display: flex; flex-direction: column; text-align: right; }
