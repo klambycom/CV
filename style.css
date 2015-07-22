@@ -88,5 +88,5 @@ li { margin-bottom: 3px; }
 li ul { margin-top: 5px; }
 
 /* CONTACT */
-#contact { display: flex; flex-direction: column; text-align: right; }
-#contact a { white-space: nowrap; }
+address { display: flex; flex-direction: column; text-align: right; }
+address a { white-space: nowrap; }
