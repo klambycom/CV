@@ -47,7 +47,7 @@ h3 { font-size: 1.5em; }
 h1, h2, h3 { font-family: 'Lato', sans-serif; }
 body { font-family: 'Slabo 27px', serif; }
 a { color: #1756a9; text-decoration: none; }
-b { font-weight: bold; }
+b { font-weight: bold; font-style: italic; }
 
 /* HEADER */
 header {
@@ -85,3 +85,8 @@ li ul { margin-top: 5px; }
 /* CONTACT */
 address { display: flex; flex-direction: column; text-align: right; }
 address a { white-space: nowrap; }
+
+/* PRINT */
+@media print{
+  a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
+}
