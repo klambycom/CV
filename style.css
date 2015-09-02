@@ -48,6 +48,7 @@ h1, h2, h3 { font-family: 'Lato', sans-serif; }
 body { font-family: 'Slabo 27px', serif; }
 a { color: #1756a9; text-decoration: none; }
 b { font-weight: bold; font-style: italic; }
+small { color: #737373; font-size: .8em; }
 
 /* HEADER */
 header {
